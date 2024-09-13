@@ -1,0 +1,1063 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.main{
+    height: 100vh;
+    width: 100wh;
+    
+
+
+}
+.header{
+    height: 175px;
+    width: 100%;
+    box-shadow: 0px 1px 8px;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    position: fixed;
+    z-index: 50;
+    
+
+}
+
+.logo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+     background-color: #f7f7f7;
+}
+.logo img{
+      width: 190px;
+      margin-left: 50px;
+}
+ .header2{
+    height: 100px;
+    width: 80%;
+    background-color:white;
+    border-bottom: 1px solid rgb(142, 132, 132);
+ 
+ }
+.secssion1{
+    /* width: 100%;
+    height: 50%; */
+    /* background-color:white; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 400px;
+
+}
+/* .one{
+    width: 50%;
+    height: 100%;
+    background-color: #be5050;
+} */
+
+
+
+ .img1 img{
+    width: 28px;
+   
+    border-radius: 20px;
+ 
+ }
+ .img1 img:hover{
+    width: 38px;
+    height: 38px;
+ }
+ .img1:hover{
+    width: 48px;
+    height: 48px;
+ }
+ .img1{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(236,236, 236);
+    border-radius: 50%;
+    padding-left: 12px;
+    padding-top: 12px;
+    margin-top: 1opx;
+   
+    
+ }
+ .two,.three {
+    border-right: 1px solid rgb(185, 176, 176);
+   margin-left: 10px;
+   width: 400px;
+   height: 60px;
+ }
+ .four{
+    width: 350px;
+    margin-left: 30px;
+ }
+  .secssion1 h3 {
+   margin-left: 65px;
+   margin-top: -50px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+ }
+ .secssion1 p{
+    margin-left: 65px;
+    margin-top: -16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+ }
+ .secssion2{
+width: 100%;
+height: 100%;
+ }
+.five{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight:bolder;
+     /* gap:10px; */
+     margin-left: 65px;
+     margin-top: 18px;
+
+}
+.secssion2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.btn button{
+    margin-left: 80%;
+    margin-top: -200px;
+    position: relative;
+    top: -70px;
+    width: 150px;
+    height: 50px;
+    background-color: brown;
+    color: white;
+}
+.moon{
+    width: 35px;
+    height: 35px;
+    margin-left: 95%;
+    position: relative;
+    top: -110px;
+}
+.header3{
+    position: relative;
+    top: 40px;
+    width: 100%;
+    height: 1130px;
+    background-color: rgb(250, 249, 251);
+    padding-top: 150px;
+    display: flex;
+    
+}
+.part1{
+    width: 65%;
+    height: 95%;
+    background-color:  #f7f7f7;
+}
+.header3 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 170px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-left: -60px;
+
+}
+.header3 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(142, 132, 132);
+    line-height: 35px;
+}
+.header3 button{
+    width: 140px;
+    height: 70px;
+    margin-left: 190px;
+    margin-top: 20px;
+    background-color: brown;
+    color: white;
+    font-weight: 19px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+
+
+
+}
+.pnt1{
+   display: flex;
+   /* justify-content: space-evenly; */
+   gap: 70px;
+   margin-left: 180px;
+   margin-top: -80px;
+   
+  
+}
+.part1 p{
+    margin-top: -30px;
+}
+.part2{
+    width: 35%;
+    height: 95%;
+    background-color:rgb(12,21,42,255); 
+    display: flex;
+    align-items: end;
+    background-image: url(img/waves.svg)
+}
+.part2 img{
+    margin-left: -90px;
+    width: 550px;
+    height: 805px;
+    margin-bottom:150px;
+}
+
+.six p{
+    display: flex;
+    justify-content: center;
+    
+    padding-top: 90px;
+    color: rgb(227, 15, 15);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 5px;
+    font-weight: 104px;
+    margin-top: 40px;
+    
+}
+.r{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: -23px;
+    letter-spacing: 3px;
+    
+
+}
+.ps{
+margin-top: -40px;
+font-size: 40px;
+margin-left: 560px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+letter-spacing: 3px;
+
+}
+.seven p{
+    display: flex;
+    justify-content: center;
+    line-height: 6px;
+    color: rgb(111, 103, 103);
+}
+.eight{
+    width: 23%;
+    height: 320px;
+    background-color: rgb(236,236, 236);
+    margin-top: 100px;
+    /* margin-left: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eight img{
+    width: 60px;
+    margin-top: 30px;
+    margin-left: 20px;
+    
+}
+.eight h3{
+    font-size: 23px;
+    margin-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.eight p{
+    font-size: 17px;
+    margin-left: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 2px;
+    color: rgb(91, 86, 80);
+}
+.nine{
+    width: 23%;
+    height: 320px;
+    background-color: rgb(236,236, 236);
+    margin-top: 100px;
+   
+}
+.nine img{
+    width: 60px;
+    margin-top: 30px;
+    margin-left: 20px;
+    
+}
+.nine h3{
+    font-size: 23px;
+    margin-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.nine p{
+    font-size: 17px;
+    margin-left: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 2px;
+    color: rgb(91, 86, 80);
+}
+.ten{
+    width: 23%;
+    height: 320px;
+    background-color: rgb(236,236, 236);
+    margin-top: 100px;
+    
+}
+.ten img{
+    width: 60px;
+    margin-top: 30px;
+    margin-left: 20px;
+    
+}
+.ten h3{
+    font-size: 23px;
+    margin-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.ten p{
+    font-size: 17px;
+    margin-left: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 2px;
+    color: rgb(91, 86, 80);
+}
+.one1{
+    width: 23%;
+    height: 320px;
+    background-color: rgb(236,236, 236);
+    margin-top: 100px;
+   
+}
+
+.one1 img{
+    width: 60px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.one1 h3{
+    font-size: 23px;
+    margin-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.one1 p{
+    font-size: 17px;
+    margin-left: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 2px;
+    color: rgb(91, 86, 80); 
+}
+.bb{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: black; */
+    
+}
+.header4{
+    background-color: #f7f7f7;
+   
+}
+.one2 button{
+    width: 160px;
+    height: 50px;
+    margin-left: 43%;
+    margin-top: 70px;
+    background-color: brown;
+    color: white;
+    font-weight: 19px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+.header5{
+    width: 100%;
+    height: 780px;
+    background-color: rgb(250, 249, 251);
+    padding-top: 150px;
+    /* margin-top: 70px; */
+    display: flex;
+}
+.one3{
+    width: 30%;
+    height: 600px;
+    background-color: rgba(49, 45, 45, 0.208);
+    rotate: 11deg;
+    margin-left: 18%;
+}
+.one4 img{
+    width: 460px; 
+    rotate: -11deg;
+/* margin-left: -300px; */
+}
+.one5 {
+   /* display: flex; */
+   margin-left: 130px;
+   
+}
+#pp{
+    letter-spacing: 5px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+    
+    
+    
+}
+.one5 h2{
+    font-size: 29px;
+    margin-top: -19px;
+    letter-spacing: 7px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.one5 p{
+    letter-spacing: 2px;
+    font-size: 15px;
+    line-height: 23px;
+    color: rgb(102, 98, 98);
+}
+.one6 button{
+    width: 150px;
+    height: 50px;
+    background-color: brown;
+    color: white;
+  margin-top: 30px;
+  margin-right: 40px;    
+    
+}
+body{
+    background-image: url(img/backgruond\ veedu\ -\ Copy.jpg);
+    background-attachment: fixed;
+    
+}
+.header6{
+    height: 90vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    
+    
+}
+.one7{
+    text-align: center;
+    
+
+}
+.one7 h2{
+    font-size: 49px;
+}
+.ex{
+    position: relative;
+    top: 40px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#we{
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: -40px;
+    color: rgb(148, 140, 134);
+    
+}
+/* .one8{
+    width: 110px;
+    height: 120px;
+    background-color: rgb(247, 249, 249);
+} */
+.mu{
+    width: 110px;
+    height: 120px;
+    background-color: rgb(247, 249, 249);
+}
+.ma{
+    width: 110px;
+    height: 120px;
+    background-color: rgb(247, 249, 249);
+}
+.mn{
+    width: 110px;
+    height: 120px;
+    background-color: rgb(247, 249, 249);
+}
+.ms{
+    width: 110px;
+    height: 120px;
+    background-color: rgb(247, 249, 249);
+}
+.one8 img{
+    width: 60px;
+     margin-left: 20px;
+     margin-top: 25px;
+}
+/* .one9{
+    width: 110px;
+    height: 120px;
+    background-color: rgb(247, 249, 249);
+} */
+.one9 img{
+    width: 60px;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+    
+/* .one10{
+    width: 110px;
+    height: 120px;
+    background-color: rgb(247, 249, 249);
+} */
+.one10 img{
+    width: 60px;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+/* .one11{
+    width: 110px;
+    height: 120px;
+    background-color: rgb(247, 249, 249);
+} */
+.one11 img{
+    width: 60px;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.photo{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 110px;
+    margin-left: 100px;
+    
+}
+.m h2{
+    font-size: 25px;
+    margin-left: -50px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+.m p{
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: -110px;
+   text-align: center;
+   width: 400px;
+   margin-top: -20px;
+   color: #d8d4d4;
+}
+.u h2{
+    font-size: 25px;
+    margin-left: -50px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+.u p{
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: -110px;
+   text-align: center;
+   width: 400px;
+   margin-top: -20px;
+   color: #d8d4d4;
+}
+.n h2{
+    font-size: 25px;
+    margin-left: -20px;
+   
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+.n p{
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: -60px;
+   /* text-align: center; */
+   width: 400px;
+   margin-top: -20px;
+   color: #d8d4d4;
+   
+}
+.a h2{
+    font-size: 25px;
+    margin-left: -50px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+.a p{
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left:-100px;
+   text-align: center;
+   width: 300px;
+   margin-top: -20px;
+   color: #d8d4d4;
+}
+.header7{
+    margin-top: 90px;
+    /* width: 100%; */
+    height: 1300px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.one12 h2{
+    font-size: 29px;
+    margin-top: -19px;
+    letter-spacing: 7px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 80px;
+}
+.one12 p{
+    letter-spacing: 2px;
+    font-size: 15px;
+    line-height: 23px;
+   
+    
+}
+.add1{
+    position: relative;
+    top: 70px;
+    color: red;
+}
+.add2{
+    color: rgb(87, 85, 85);
+}
+.grid{
+    display: grid;
+    width: 1300px;
+    height: 560px;
+   
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+    gap: 20px;
+   margin-left: 90px;
+   margin-top: 60px;
+   
+}
+.gd{
+    background: rgb(255, 255, 255);
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+.gimg{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(231, 227, 227);
+   margin-top: 40px;
+    padding: 20px;
+    
+}
+
+.gd p{
+     font-size: 14px;
+     letter-spacing: 1px;
+     color: rgb(75, 68, 68);
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.gd h2{
+    
+    font-size: 19px;
+    letter-spacing: 2px;
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 14px;
+}
+.grid :hover{
+    transition: c
+}
+.kun button{
+    width: 220px;
+    height: 50px;
+    background-color: brown;
+    color: white;
+  margin-top: 190px;
+    
+}
+.header8{
+    height: 900px;
+    width: 100%;
+    background-color: rgb(247, 249, 249);
+    margin-top: -50px;
+  
+}
+.fun h2{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 14px;
+    margin-left: 10%;
+    margin-top: 40px;
+}
+.fun p{
+    text-align: start;
+    width: 30%;
+    letter-spacing: 1px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #695f5f;
+    margin-left: 10%;
+    margin-top: -20px;
+ }
+
+.funp p {
+   color: rgb(232, 15, 15);
+   font-weight: 500;
+   letter-spacing:  1px;
+   position: relative;
+   top: 40px;
+}
+.fun img{
+    width: 35%;
+    /* height: 30%; */
+    margin-left: 57%;
+    margin-top: -42%;
+}
+.yun{
+    width: 24%;
+    height: 320px;
+    margin-left: 50%;
+    position: relative;
+    top: -440px;
+}
+.ji{
+    width: 20%;
+    height: 290px;
+    background-color: #f7f7f7;
+    margin-left: 52%;
+    position: relative;
+    top: -260px;
+    mix-blend-mode: screen;
+
+}
+.jh h1{
+    font-size: 90px;
+    margin-top: -490px;
+    margin-left: 30%;
+    position: relative;
+    top: 40px;
+}  
+.ju{
+    font-size: 30px;
+    margin-top: -490px;
+    margin-left: 54%;
+    position: relative;
+    top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.gb button{
+    width: 220px;
+    height: 60px;
+    background-color: brown;
+    margin-left: 150px;
+  margin-top: 230px;
+  color: #f7f7f7;
+
+}
+.header9{
+    height: 700px;
+    width: 100%;
+    background-color:white;
+    margin-top: -50px;
+    text-align: center;
+}
+.q{
+    color: red;
+    padding-top: 70px;
+}
+/* .q p{
+    
+    margin-top: 20px;
+} */
+.w h1{
+    margin-top: -20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.you{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 12px;
+    
+    margin-top: 80px;
+    text-align: start;
+   
+    
+    
+
+}
+.you p{
+    margin-left: 20px;
+}
+.killing{
+    grid-column: 2/3;
+    background-color: rgb(247, 249, 249);
+    width: 80%;
+    margin-left: 10%;
+
+    
+    
+}
+.kill{
+    background-color: rgb(247, 249, 249);
+    width: 80%;
+    margin-left: 10%;
+    
+   
+   
+    
+}
+.header10{
+    height: 1050px;
+    width: 100%;
+    background-color: rgb(247, 249, 249);
+    margin-top: -50px;
+    /* text-align: center; */
+    
+}
+.i h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 100;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 14px;
+    /* margin-left: 10%; */
+    padding-top: 70px;
+    text-align: center;
+   
+   
+}
+.i p{
+    text-align: start;
+    /* width: 30%; */
+    letter-spacing: 2px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #695f5f;
+    /* margin-left: 35%; */
+    margin-top: -10px;
+    text-align: center;
+ }
+
+.ww {
+   color: rgb(232, 15, 15);
+   font-weight: 1000;
+   letter-spacing:  1px;
+   position: relative;
+   top: 90px;
+   margin-top: 30px;
+   text-align: center;
+   
+}
+.ooi{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sui{
+    height: 500px;
+    width: 390px;
+    background-color:white;
+    padding-left: 30px;
+
+}
+.sui img{
+    width: 50px;
+    margin-left: 4px;
+    margin-top: 40px;
+
+}
+.sui p{
+   width: 300px;
+   font-size: 21px;
+   letter-spacing: 1px;
+   color: #695f5f;
+}
+.sui h4{
+    margin-top: 130px;
+    font-size: 40px;
+}
+.kooi{
+    height: 500px;
+    width: 390px;
+    background-color: white;
+    padding-left: 30px;
+
+}
+.kooi img{
+    width: 50px;
+    margin-left: 4px;
+    margin-top: 40px;
+
+}
+.kooi p{
+   width: 300px;
+   font-size:15px;
+   letter-spacing: 1px;
+   color: #695f5f;
+}
+.kooi h4{
+    margin-top: 130px;
+    font-size: 30px;
+}
+.pooi{
+    height: 500px;
+    width: 390px;
+    background-color: white;
+    padding-left: 30px;
+
+}
+.pooi img{
+    width: 50px;
+    margin-left: 4px;
+    margin-top: 40px;
+
+}
+.pooi p{
+   width: 300px;
+   font-size: 15px;
+   letter-spacing: 1px;
+   color: #695f5f;
+}
+.pooi h4{
+    margin-top: 130px;
+    font-size: 30px;
+}
+.op button{
+    width: 220px;
+    height: 50px;
+    background-color: brown;
+    color: white;
+  margin-top: 80px;
+  margin-left: 40%;
+    
+}
+.header11{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(247, 249, 249);
+    margin-top: -50px;
+}
+.end{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(139, 10, 10);
+    /* margin-top: 80px; */
+    /* padding-top: -1050px; */
+}
+.end h1{
+    font-size: 45px;
+    color: white;
+    margin-left: 120px;
+    padding-top: 120px;
+    font-weight: 900;
+}
+.end button{
+    width: 220px;
+    height: 60px;
+    background-color:white;
+    color:black;
+   position: relative;
+   top: -110px;
+ 
+  margin-left: 80%;
+}
+.end1{
+    background-color: rgb(45, 38, 38);
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.end1 img{
+    width: 280px;
+    margin-top: 100px;
+    
+    margin-left: 9%;
+}
+.end2{
+    display: flex;
+    /* margin-left: 55%; */
+    /* margin-top: -120px; */
+    /* gap: 40px; */
+    margin-left: 100px;
+    margin-top: 100px;
+    
+    
+}
+.nth ul{
+   list-style: none;
+   line-height: 40px;
+}
+.nth ul a{
+    text-decoration: none;
+    color: white;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nth h3{
+    color: white;
+    /* margin-bottom: 25px; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nth1 img{
+    width: 20px;
+}
+.nth1 h3{
+    color: white;
+    margin-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nth1 div p{
+    margin-left: 40px;
+margin-top: -20px;
+color: white;
+
+}
+.nth1 div{
+margin-top: -90px;
+margin-left: 30px;
+
+}
+.nth1 a{
+    text-decoration: none;
+}
+.end2 h3{
+    margin-left: 40px;
+}
+.big ul{
+    display: flex;
+    list-style: none;
+    
+    
+   
+}
+.big a{
+    color: white;
+    text-decoration: none;
+   ;
+}
+.big li{
+    margin-left: 70px;
+    margin-top: 220px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+hr{
+    width: 1200px;
+    margin-top: 150px;
+
+}
+.pop p{
+    color: white;
+    margin-left: 550px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+}
